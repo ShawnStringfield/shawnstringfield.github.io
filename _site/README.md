@@ -1,4 +1,0 @@
-shawnstringfield.github.io
-==========================
-
-Blog
