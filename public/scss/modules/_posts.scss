@@ -32,6 +32,12 @@
     }
 }
 
+@media (max-width: 38rem) {
+    .post img {
+        width: 100%;
+    }
+}
+
 /* Related posts */
 .related {
     padding-top: 2rem;

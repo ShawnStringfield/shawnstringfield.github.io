@@ -74,5 +74,5 @@ This will be output to:
 
 ### Mary Torres  
 mary.torres71@example.com  
-![Random User Image]({{site.baseurl}}/public/img/post_assets/randomuser/randomuser.jpg)
+<img src="{{site.baseurl}}/public/img/post_assets/randomuser/randomuser.jpg" width="200px" />
 
