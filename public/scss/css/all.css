@@ -7,12 +7,12 @@ code, pre {
 code {
   padding: 0.25em 0.5em;
   font-size: 85%;
-  color: #bf616a;
+  color: #dd1043;
   background-color: #f9f9f9;
   -webkit-border-radius: 3px;
   border-radius: 3px; }
 
-/* line 14, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/code */
+/* line 16, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/code */
 pre {
   display: block;
   margin-top: 0;
@@ -25,19 +25,19 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9; }
-  /* line 27, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/code */
+  /* line 29, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/code */
   pre code {
     padding: 0;
     font-size: 100%;
     color: inherit;
     background-color: transparent; }
 
-/* line 35, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/code */
+/* line 37, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/code */
 .highlight {
   margin-bottom: 1rem;
   -webkit-border-radius: 4px;
   border-radius: 4px; }
-  /* line 39, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/code */
+  /* line 41, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/code */
   .highlight pre {
     margin-bottom: 0; }
 
@@ -364,35 +364,41 @@ html, body {
   padding: 0; }
 
 /* line 9, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+body {
+  border-top: 2px solid #dd1043; }
+
+/* line 13, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
 .container {
   max-width: 50rem;
   padding: 0 1em;
   margin: 0 auto; }
 
 /* Tables */
-/* line 16, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+/* line 20, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
 table {
   margin-bottom: 1rem;
   width: 100%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse; }
-  /* line 22, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+  /* line 26, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
   table td, table th {
     padding: 0.25rem 0.5rem;
     border: 1px solid #e5e5e5; }
-  /* line 29, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+  /* line 33, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
   table tbody tr:nth-child(odd) td, table tbody tr:nth-child(odd) th {
     background-color: #f9f9f9; }
 
-/* line 33, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+/* line 37, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
 .masthead {
+  background-color: #f9f9f9;
   border-bottom: 1px solid #eee; }
-  /* line 35, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+  /* line 40, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
   .masthead .masthead-title a {
     color: #505050; }
-  /* line 36, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+  /* line 42, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
   .masthead h1 {
-    margin: 10px 0;
+    margin: 0;
+    padding: 10px 0;
     font-size: 2rem; }
 
 /* line 1, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */

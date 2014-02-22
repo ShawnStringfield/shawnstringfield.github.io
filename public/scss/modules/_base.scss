@@ -6,6 +6,10 @@ body {
 	padding: 0;
 }
 
+body {
+	border-top: 2px solid #dd1043;
+}
+
 .container {
 	max-width: 50rem;
 	padding: 0 1em;
@@ -31,7 +35,13 @@ table {
 }
 
 .masthead {
+	background-color: #f9f9f9;
 	border-bottom: 1px solid #eee;
 	.masthead-title a {color: #505050;}
-	h1 {margin: 10px 0; font-size: 2rem;}
+
+	h1 {
+		margin: 0; 
+		padding: 10px 0;
+		font-size: 2rem;
+	}
 }
