@@ -4,4 +4,4 @@ pygments: true
 
 port: 4000
 
-base_url: /blog
+baseurl: /blog
