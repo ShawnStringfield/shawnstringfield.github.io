@@ -384,6 +384,17 @@ table {
   table tbody tr:nth-child(odd) td, table tbody tr:nth-child(odd) th {
     background-color: #f9f9f9; }
 
+/* line 33, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+.masthead {
+  border-bottom: 1px solid #eee; }
+  /* line 35, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+  .masthead .masthead-title a {
+    color: #505050; }
+  /* line 36, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+  .masthead h1 {
+    margin: 10px 0;
+    font-size: 2rem; }
+
 /* line 1, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
 html {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
@@ -546,20 +557,4 @@ blockquote {
     /* line 57, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/posts */
     .related-posts li a:hover small {
       color: inherit; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

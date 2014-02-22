@@ -29,3 +29,9 @@ table {
 		tr:nth-child(odd) th { background-color: #f9f9f9; }
 	}
 }
+
+.masthead {
+	border-bottom: 1px solid #eee;
+	.masthead-title a {color: #505050;}
+	h1 {margin: 10px 0; font-size: 2rem;}
+}
