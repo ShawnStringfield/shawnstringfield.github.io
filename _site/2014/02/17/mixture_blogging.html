@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link href="http://gmpg.org/xfn/11" rel="profile">
+ 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<title>Blog</title>
+
+	<link rel="stylesheet" href="//scss/css/all.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+</head>
+<body>
+
+	
+	<div class="container content">
+		<div class="post">
+			<h2>Blogging with Mixture</h2>
+			<h4>February 17 2014</h4>
+			<p>Yesterday I began working on my portfolio site and using Mixture for the Front-End work. I&#39;m using collections to store each client&#39;s project. It&#39;s been a while sense I used collections in a mixture project and was a bit confused about the collection structure and which data points are displayed in which templates so I decided to jot down the proccess I used to get this all working correctly. </p>
+
+<p>My folder structure consisted of:</p>
+
+<ul>
+<li>collections
+
+<ul>
+<li>portfolio</li>
+<li>client.md</li>
+</ul></li>
+<li>templates
+
+<ul>
+<li>layouts</li>
+<li>client.liquid</li>
+<li>index.liquid</li>
+</ul></li>
+</ul>
+
+<p>In Mixture, the master layout page (whatever you&#39;d like to call it) holds the main structure for a site or a given section within a site. Each collection item&#39;s data gets piped directly to this master layout via the collection page&#39;s Frontmatter. </p>
+
+<p>As an example:</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="nn">---</span>
+<span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">TItle of Collection Item</span>
+<span class="l-Scalar-Plain">date</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">February 17, 2014</span>
+<span class="nn">---</span>
+</code></pre></div>
+
+<p>The above is an example of Frontmatter within a given collection item. Then, you can access that data directly in your master layout file like so:</p>
+
+<div class="highlight"><pre><code class="html">{{ model.title }}
+{{ model.date }}
+</code></pre></div>
+
+<p>It&#39;s as simple as that. These two pages will give you the desired look and feel for a particular collection item&#39;s detailed page. In order to reference a list of collection items similiar to what you may see on a homepage of a blog, you will loop through collection items in a index.iquid file. The index.liquid file can use any master layout you wish. You can pull in the default layout (which is layout.liquid) or you can create your own for this purpose. </p>
+
+<p>If you wre to use the default <code>layout.liquid</code>, just add the following:</p>
+
+<div class="highlight"><pre><code class="html">{% block content %}{% endblock %}
+</code></pre></div>
+
+<p>You may wish to name the block however you see fit but a standard biolerplate from mitxure will contain the name of &quot;content&quot;. You can use as many blocks as you wish per template but I won&#39;t go into too much detail here as blocks are not the topic of this discussion. </p>
+
+<p>Back inside the <code>index.liquid</code> file, you will loop through the collection like so:</p>
+
+<div class="highlight"><pre><code class="html">{% block content %}
+  {% collection &#39;collection_name&#39; %}
+    {% for item in collection.items %}
+      ... loop through collection using standard liquid variables
+    {% endfor %}
+  {% endcollection %}
+{% endblock %}
+</code></pre></div>
+
+		</div>
+	</div>
+
+</body>
+</html>
