@@ -5,3 +5,5 @@ pygments: true
 port: 4000
 
 baseurl: /blog
+
+permalink: /:categories/:year/:month/:day/:title
