@@ -370,7 +370,7 @@ body {
 /* line 13, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
 .container {
   max-width: 45rem;
-  padding: 0 1em;
+  padding: 0 2em;
   margin: 0 auto; }
 
 /* Tables */
@@ -465,29 +465,40 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
-/* line 62, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
+/* line 63, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
 strong {
   color: #303030; }
 
-/* line 64, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
+/* line 65, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
 abbr {
   font-size: 85%;
   font-weight: bold;
   color: #555;
   text-transform: uppercase; }
-  /* line 70, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
+  /* line 71, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
   abbr[title] {
     cursor: help;
     border-bottom: 1px dotted #e5e5e5; }
 
+/* line 77, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
+ul {
+  padding: 0;
+  list-style: none; }
+  /* line 81, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
+  ul li:before {
+    margin-left: -1em;
+    margin-right: 0.3em;
+    content: '# ';
+    color: #CCC; }
+
 /* Quotes */
-/* line 79, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
+/* line 90, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
 blockquote {
   padding: 0.5rem 1rem;
   margin: 0.8rem 0;
   color: #7a7a7a;
   border-left: 0.25rem solid #e5e5e5; }
-  /* line 85, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
+  /* line 96, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
   blockquote p:last-child {
     margin-bottom: 0; }
 
@@ -497,7 +508,7 @@ blockquote {
  * Show alert messages to users. You may add it to single elements like a `<p>`,
  * or to a parent if there are multiple elements to show.
  */
-/* line 97, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
+/* line 108, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/type */
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
@@ -567,5 +578,4 @@ blockquote {
     /* line 63, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/posts */
     .related-posts li a:hover small {
       color: inherit; }
-
 
