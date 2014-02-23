@@ -369,7 +369,7 @@ body {
 
 /* line 13, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
 .container {
-  max-width: 50rem;
+  max-width: 45rem;
   padding: 0 1em;
   margin: 0 auto; }
 
@@ -390,12 +390,11 @@ table {
 
 /* line 37, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
 .masthead {
-  background-color: #f9f9f9;
   border-bottom: 1px solid #eee; }
-  /* line 40, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+  /* line 39, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
   .masthead .masthead-title a {
     color: #505050; }
-  /* line 42, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
+  /* line 41, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/base */
   .masthead h1 {
     margin: 0;
     padding: 10px 0;
@@ -568,4 +567,5 @@ blockquote {
     /* line 63, /Users/shawnstringfield/Sites/shawnstringfield.github.io.blog/public/scss/modules/posts */
     .related-posts li a:hover small {
       color: inherit; }
+
 
