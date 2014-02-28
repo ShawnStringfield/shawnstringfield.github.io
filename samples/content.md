@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sample Contents
+title: Sample Content
 ---
 
 <div class="message">
