@@ -1,1 +1,6 @@
-name: Portfolio of Shawn Stringfield
+name: Your New Jekyll Site
+markdown: kramdown
+pygments: true
+port: 4000
+baseurl: /
+permalink: /:categories/:year/:month/:day/:title
