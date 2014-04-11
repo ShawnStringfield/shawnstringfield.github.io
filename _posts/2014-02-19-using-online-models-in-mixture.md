@@ -15,7 +15,7 @@ Did you know you can create models in [Mixture](http://mixture.io) from any onli
 
 Let's try this with a service I just found out about recently, [Random User Generator](http://randomuser.me). This is a service that returns a randomly generated user profile via JSON that you can use while mocking up websites and webapps. 
 
-![RandomUser]({{site.baseurl}}/public/img/post_assets/randomuser/randomuserbanner.png)
+![RandomUser](/public/img/post_assets/randomuser/randomuserbanner.png)
 
 By pointing your browser at [http://api.randomuser.me](http://api.randomuser.me), You will be provided with a JSON object similir to this:
 
@@ -74,5 +74,5 @@ This will be output to:
 
 ### Mary Torres  
 mary.torres71@example.com  
-<img src="{{site.baseurl}}/public/img/post_assets/randomuser/randomuser.jpg" width="200px" />
+<img src="/public/img/post_assets/randomuser/randomuser.jpg" width="200px" />
 
