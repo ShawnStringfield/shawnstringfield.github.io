@@ -1,6 +1,6 @@
-name: ShawnStringfield
+name: Your New Jekyll Site
 markdown: kramdown
 pygments: true
 port: 4000
-baseurl:
+baseurl: /
 permalink: /:categories/:year/:month/:day/:title
