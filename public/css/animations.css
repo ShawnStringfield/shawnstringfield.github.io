@@ -1,0 +1,98 @@
+html {
+  font-family: 'Muli', sans-serif; }
+
+header {
+  margin-bottom: 40px;
+  background-color: #c65861;
+  font-size: 20px;
+  color: #faf0f1; }
+  header a {
+    color: #e6b7bb; }
+  header .container {
+    padding: 50px;
+    max-width: 75rem; }
+  header cite {
+    float: right; }
+
+p {
+  animation: fadein 2s; }
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    margin-left: -40px; }
+
+  100% {
+    opacity: 1;
+    margin-left: 0; } }
+
+@keyframes slidein10 {
+  0% {
+    width: 0; }
+
+  100% {
+    width: 50px; } }
+
+@keyframes slidein50 {
+  0% {
+    width: 50px; }
+
+  100% {
+    width: 200px; } }
+
+@keyframes slidein75 {
+  0% {
+    width: 200px; }
+
+  100% {
+    width: 400px; } }
+
+h1, h2, h3, h4, h5, h5 {
+  color: #892f36; }
+
+#ten, #fifty, #seventyfive {
+  display: none; }
+
+#ten:target {
+  display: block; }
+  #ten:target:before {
+    width: 50px;
+    animation: slidein10 1s; }
+
+#fifty:target {
+  display: block; }
+  #fifty:target:before {
+    width: 200px;
+    animation: slidein50 1s; }
+
+#seventyfive:target {
+  display: block; }
+  #seventyfive:target:before {
+    width: 400px;
+    animation: slidein75 1s; }
+
+.graphbar .bar1, .graphbar .bar2 {
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 3px; }
+.graphbar .bar1 {
+  background-color: #892f36;
+  width: 500px; }
+  .graphbar .bar1:before {
+    content: '';
+    position: absolute;
+    height: 25px;
+    background-color: orange;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+
+#confirm {
+  display: none; }
+  #confirm:target {
+    animation: fadein 1s;
+    display: block; }
+
+a {
+  padding: 0px; }
+
+/*# sourceMappingURL=animations.map */
