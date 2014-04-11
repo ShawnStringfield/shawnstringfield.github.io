@@ -1,0 +1,63 @@
+---
+layout: pages
+title: Animation Experiments
+css: animations
+resources:
+  - text: MDN | Using CSS animations
+    link: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations
+    author: MDN
+  - text: CSS-Tricks | Animations`
+    link: http://css-tricks.com/almanac/properties/a/animation/
+    author: Chris Coyier
+  - text: Val Head | UI Animation and UX, A Not-So-Secret Friendship
+    link: http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship
+    author: Val Head
+  - text: Racheld Nabors | Web Animation at Work
+    link: http://alistapart.com/article/web-animation-at-work
+    author: Racheld Nabors
+  - text: CSS-Tricks | CSS Animation Tricks, State Jumping, Negative Delays, Animating Origin, and More
+    link: http://css-tricks.com/css-animation-tricks
+    author: Chris Coyier
+  - text: Val Head | What Are Your Transitions Saying?
+    link: http://www.valhead.com/2013/11/25/what-are-your-transitions-saying
+    author: Val Head
+  - text: SM | Smart Transitions In User Experience Design
+    link: http://uxdesign.smashingmagazine.com/2013/10/23/smart-transitions-in-user-experience-design/
+    author: Adrian Zumbrunnen
+  - text: SARAH HORTON, WHITNEY QUESENBERY | Designing for Easy Interaction
+    link: http://alistapart.com/article/designing-for-easy-interaction
+    author: SARAH HORTON, WHITNEY QUESENBERY
+---
+
+<header>
+  <div class="container">
+    <h1>CSS Animations</h1>
+    <p><em>When used as more than just a subtle design detail, animation can provide cues, guide the eye, and soften the sometimes hard edges of web interactions. It can improve the user experience. And we can do it with CSS.</em> <cite><a target="_blank" href="http://www.valhead.com/"> &mdash; Val Head</a></cite></p>
+  </div>
+</header>
+
+<div class="container content">
+  <h3>Bar Graphs</h3>
+  <div class="graphbar">
+    <div id="ten" class="bar1"></div>
+    <div id="fifty" class="bar1"></div>
+    <div id="seventyfive" class="bar1"></div>
+
+    <a href="#ten">I'm 10% done!</a>
+    <a href="#fifty">I'm 50% done!</a>
+    <a href="#seventyfive">I'm 75% done!</a>
+  </div>
+
+  <h3>Confirmation</h3>
+  <div id="confirm" class="alert">
+    Are you sure?
+  </div>
+  <a href="#confirm">Delete!</a>
+
+  <h2>Resources</h2>
+  <ul>
+    {% for resource in page.resources %}
+      <li><a target="_blank" href="{{ resource.link }}">{{ resource.text }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
