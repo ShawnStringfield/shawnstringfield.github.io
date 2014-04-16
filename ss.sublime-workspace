@@ -1,0 +1,534 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"full",
+				"lead-address-full"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"ab",
+				"absolute"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 33.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"asp",
+				"Set Syntax: ASP"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"instla",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/stringfs/Documents/Projects/icops/js/app.js",
+		"/Users/stringfs/Documents/Projects/icops/pending.html",
+		"/Users/stringfs/Documents/Projects/icops/css/expander.css",
+		"/Users/stringfs/Documents/Projects/icops/less/modules/expander.less",
+		"/Users/stringfs/Documents/Projects/icops/less/bootstrap/glyphicons.less",
+		"/Users/stringfs/Documents/Projects/icops/less/modules/legends.less",
+		"/Users/stringfs/Documents/Projects/icops/views/includes/leads.html",
+		"/Users/stringfs/Documents/Projects/icops/css/leads.css",
+		"/Users/stringfs/Documents/Projects/icops/js/plugincode.js",
+		"/Users/stringfs/Documents/Projects/icops/less/mystyles.less",
+		"/Users/stringfs/Documents/Projects/icops/less/bootstrap/progress-bars.less",
+		"/Users/stringfs/Documents/Projects/icops/less/bootstrap/print.less",
+		"/Users/stringfs/Documents/Projects/icops/fonts/glyphicons-halflings-regular.svg",
+		"/Users/stringfs/Documents/Projects/icops/fonts/glyphicons-halflings-regular.woff",
+		"/Users/stringfs/Documents/Projects/icops/less/bootstrap/component-animations.less",
+		"/Users/stringfs/Documents/Projects/icops/less/bootstrap/badges.less",
+		"/Users/stringfs/Documents/Projects/icops/css/bootstrap.css",
+		"/Users/stringfs/Sites/*ss/ss_site/public/lib/angular-1.1.6/src/module.prefix",
+		"/Users/stringfs/Sites/*ss/ss_site/public/scss/projects/animations.scss",
+		"/Users/stringfs/Sites/*ss/ss_site/public/css/animations.css",
+		"/Users/stringfs/Sites/*ss/ss_site/_posts/2014-02-19-using-online-models-in-mixture.html",
+		"/Users/stringfs/Sites/*ss/ss_site/public/scss/projects/.sass-cache/1e435a8daa6197c0f284d99224e7007bb14d0f37/animations.scssc",
+		"/Users/stringfs/Sites/*ss/ss_site/_drafts/animations.md",
+		"/Users/stringfs/Sites/*ss/ss_site/public/lib/jquery/src/effects/animatedSelector.js",
+		"/Users/stringfs/Sites/*ss/ss_site/public/lib/angular-1.1.6/docs/content/guide/migration.ngdoc",
+		"/Users/stringfs/Sites/*ss/ss_site/public/lib/angular-1.1.6/src/ngLocale/angular-locale_nl.js",
+		"/Users/stringfs/Sites/*ss/ss_site/public/lib/angular-1.1.6/TRIAGING.md",
+		"/Users/stringfs/Sites/*ss/ss_site/_posts/2014-02-19-using-online-models-in-mixture.md",
+		"/Users/stringfs/Documents/Projects/icops/css/mystyles.css",
+		"/Users/stringfs/Documents/Projects/icops/less/modules/mainnav.less",
+		"/Users/stringfs/Documents/Projects/icops/js/modules/expander.js",
+		"/Users/stringfs/Documents/Projects/icops/img/icon_uaf.svg",
+		"/Users/stringfs/Documents/Projects/icops/img/building.svg",
+		"/Users/stringfs/Documents/Projects/icops/views/includes/panel.html",
+		"/Users/stringfs/Documents/Projects/icops/index.html",
+		"/Users/stringfs/Sites/*ss/ss_site/public/scss/modules/_base.scss",
+		"/Users/stringfs/Sites/*ss/ss_site/public/scss/.sass-cache/322ad4d809fae20eb46ac101b75660339f91ba28/all.scssc",
+		"/Users/stringfs/Sites/*ss/ss_site/public/scss/all.scss",
+		"/Users/stringfs/Sites/*ss/ss_site/public/scss/.sass-cache/26a2c3461952a20e892453c28cfc63145d2f8c05/_code.scssc",
+		"/Users/stringfs/Sites/*ss/ss_site/public/scss/.sass-cache/26a2c3461952a20e892453c28cfc63145d2f8c05/_syntax.scssc",
+		"/Users/stringfs/Sites/*ss/ss_site/.gitignore",
+		"/Users/stringfs/Sites/*ss/ss_site/public/lib/angular-1.1.6/docs/img/angularjs-for-header-only.svg",
+		"/Users/stringfs/Sites/*ss/ss_site/public/lib/angular-1.1.6/docs/content/error/jqLite/onargs.ngdoc",
+		"/Users/stringfs/Sites/*ss/ss_site/public/lib/jquery/src/offset.js",
+		"/Users/stringfs/Sites/*ss/test/styles.scss",
+		"/Users/stringfs/Sites/*ss/test/index.jade",
+		"/Users/stringfs/Sites/*ss/test/index.html",
+		"/Users/stringfs/Sites/*ss/test/test.jade",
+		"/Users/stringfs/Sites/*ss/ss_site/_includes/head.html",
+		"/Users/stringfs/Sites/*ss/ss_site/index.html",
+		"/Users/stringfs/.vimrc.after",
+		"/Users/stringfs/.vimrc",
+		"/Users/stringfs/.vimrc.before",
+		"/Users/stringfs/.vim/janus/vim/vimrc",
+		"/Users/stringfs/.gvimrc",
+		"/Users/stringfs/.gvimrc.after",
+		"/Users/stringfs/.vim/janus/vim/gvimrc",
+		"/Users/stringfs/.vim/janus/vim/colors/irblack/README",
+		"/Users/stringfs/Sites/*ss/ss_site/CNAME",
+		"/Users/stringfs/.viminfo",
+		"/Users/stringfs/Sites/dev/middleman/basement/source/index.html.erb",
+		"/Users/stringfs/Documents/Projects/icops/js/apptiles.js",
+		"/Users/stringfs/Documents/Projects/icops/less/bootstrap/utilities.less",
+		"/Users/stringfs/Documents/Projects/icops/css/tiles.css",
+		"/Users/stringfs/Sites/*ss/ss_site/_config.yaml",
+		"/Users/stringfs/Sites/*ss/ss_site/_posts/2014-02-19-random-users.md",
+		"/Users/stringfs/Sites/*ss/ss_site/_layouts/pages.html",
+		"/Users/stringfs/Sites/*ss/ss_site/_layouts/post.html",
+		"/Users/stringfs/Sites/*ss/ss_site/samples/test.md",
+		"/Users/stringfs/Sites/*ss/ss_site/_layouts/default.html",
+		"/Users/stringfs/Sites/*ss/ss_site/README.md",
+		"/Users/stringfs/Sites/*ss/ss_site/_config.yml",
+		"/Users/stringfs/Sites/*ss/blog/index.html",
+		"/private/var/folders/qy/xqsgm88n643gtgsl6f4dlxxmzvpz5y/T/com.soulmen.ulysses3/25778c75eebb4148b0c280ff679efcdf/3b53fd79078b435cabc7b853eee2aa45/HTML/Elegant.css",
+		"/private/var/folders/qy/xqsgm88n643gtgsl6f4dlxxmzvpz5y/T/com.soulmen.ulysses3/25778c75eebb4148b0c280ff679efcdf/3b53fd79078b435cabc7b853eee2aa45/HTML/Custom Example.css",
+		"/Users/stringfs/Sites/*ss/guides/animations/mixture.json",
+		"/Users/stringfs/Sites/*ss/guides/animations/assets/scss/animations.scss",
+		"/Users/stringfs/Documents/Projects/icops/css/test.css",
+		"/Users/stringfs/Documents/Projects/icops/home.html",
+		"/Users/stringfs/Documents/Projects/icops/home_copy.html",
+		"/Users/stringfs/Library/Containers/co.reissued.Recents/Data/Library/Application Support/co.reissued.Recents/recents.json",
+		"/Users/stringfs/Documents/Projects/icops/js/libs/jquery-ui.js",
+		"/Users/stringfs/Documents/Projects/icops/js/libs/jquery.js",
+		"/Users/stringfs/Documents/Projects/icops/js/libs/jpanelmenu.js",
+		"/Users/stringfs/Documents/Projects/icops/mixture.json",
+		"/Users/stringfs/Documents/Projects/icops/css/all.css",
+		"/Users/stringfs/Documents/Projects/icops/css/alerts.css",
+		"/Users/stringfs/Downloads/InvisibleDogSP2013_Home.master",
+		"/Users/stringfs/Documents/UX Docs/ux_group/index.html",
+		"/Users/stringfs/Library/Caches/TemporaryItems/Outlook Temp/j-b[1].css",
+		"/Users/stringfs/Library/Caches/TemporaryItems/Outlook Temp/j-b.css",
+		"/Applications/test/includes/_header.html",
+		"/Applications/test/includes/_nav.html",
+		"/Users/stringfs/Desktop/test/Build/index.html",
+		"/Users/stringfs/Sites/*ss/blog/.gitignore",
+		"/Users/stringfs/Sites/*ss/blog/_layouts/default.html",
+		"/Users/stringfs/Documents/Projects/icops/js/modules/panel.js",
+		"/private/var/folders/qy/xqsgm88n643gtgsl6f4dlxxmzvpz5y/T/mHlcBsqs7Cfh/0064882f5b_all.scss",
+		"/Users/stringfs/Sites/*ss/blog/mixture.json",
+		"/Users/stringfs/Documents/Projects/iCops/css/theme.css",
+		"/Users/stringfs/Sites/*ss/blog/public/scss/all.scss",
+		"/Users/stringfs/Sites/*ss/blog/public/lib/angular-1.1.6/test/ng/directive/booleanAttrsSpec.js",
+		"/Users/stringfs/Sites/*ss/blog/public/lib/angular-1.1.6/src/ng/directive/booleanAttrs.js",
+		"/Users/stringfs/Sites/*ss/blog/public/lib/angular-1.1.6/bower.json",
+		"/Users/stringfs/Sites/*ss/blog/_config.yml",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/public/scss/modules/_syntax.scss",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/public/scss/modules/_posts.scss",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/public/scss/modules/_code.scss",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/public/scss/modules/_base.scss",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/public/lib/angular-1.1.6/karma-modules.conf.js",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/public/lib/angular-1.1.6/src/module.prefix",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/mixture.json",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/public/lib/jquery/src/selector.js",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/public/lib/angular-1.1.6/lib/sauce/sauce_connect_setup.sh",
+		"/Users/stringfs/Sites/*ss/shawnstringfield.github.io.blog/public/scss/all.css",
+		"/Users/stringfs/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/stringfs/Sites/shawnstringfield.github.io.blog/.gitignore",
+		"/Users/stringfs/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/stringfs/Sites/shawnstringfield.github.io.blog/public/lib/angular-1.1.6/src/ngLocale/angular-locale_en-tc.js",
+		"/Users/stringfs/Sites/shawnstringfield.github.io.blog/public/lib/jquery/src/selector.js",
+		"/Users/stringfs/z.sh",
+		"/Users/stringfs/Desktop/newsite/config.rb",
+		"/Users/stringfs/Desktop/newsite/source/index.html.erb",
+		"/Users/stringfs/Desktop/newsite/Gemfile",
+		"/Users/stringfs/Desktop/site/build",
+		"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl",
+		"/Users/stringfs/.bash_profile",
+		"/Users/stringfs/.bashrc"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"showPreview",
+			"ng book",
+			"fullView",
+			"watched",
+			"style=\"color",
+			"color",
+			"color: white",
+			"after",
+			"color",
+			"theme",
+			"h5",
+			"span",
+			":7774",
+			"line-height",
+			"animation",
+			"create",
+			"tiles",
+			"4",
+			"5",
+			"8",
+			"from",
+			"ignore",
+			"close"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ss.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pend",
+				"pending.html"
+			],
+			[
+				"exa",
+				"css/expander.css"
+			],
+			[
+				"leads.less",
+				"less/modules/leads-grid.less"
+			],
+			[
+				"mys",
+				"less/mystyles.less"
+			],
+			[
+				"plugin",
+				"js/plugincode.js"
+			],
+			[
+				"pending",
+				"pending.html"
+			],
+			[
+				"plu",
+				"js/plugincode.js"
+			],
+			[
+				"app.js",
+				"js/app.js"
+			],
+			[
+				"my",
+				"less/mystyles.less"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"modules/posts",
+				"public/scss/modules/_posts.scss"
+			],
+			[
+				"animations.scss",
+				"public/scss/projects/animations.scss"
+			],
+			[
+				"base",
+				"public/scss/modules/_base.scss"
+			],
+			[
+				"type",
+				"public/scss/modules/_type.scss"
+			],
+			[
+				"mystyles.less",
+				"less/mystyles.less"
+			],
+			[
+				"expander",
+				"js/modules/expander.js"
+			],
+			[
+				"expand",
+				"less/modules/expander.less"
+			],
+			[
+				"expander.js",
+				"js/modules/expander.js"
+			],
+			[
+				"expander.",
+				"css/expander.css"
+			],
+			[
+				"mystyl",
+				"less/mystyles.less"
+			],
+			[
+				"mysty",
+				"css/mystyles.css"
+			],
+			[
+				"plugi",
+				"js/plugincode.js"
+			],
+			[
+				"app",
+				"js/app.js"
+			],
+			[
+				"index.html",
+				"index.html"
+			],
+			[
+				".scss",
+				"public/scss/modules/_base.scss"
+			],
+			[
+				"online",
+				"_posts/2014-02-19-using-online-models-in-mixture.md"
+			],
+			[
+				"home",
+				"home.html"
+			],
+			[
+				"pendin",
+				"pending.html"
+			],
+			[
+				"tiles.css",
+				"css/tiles.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"til",
+				"css/tiles.css"
+			],
+			[
+				"tiles.j",
+				"js/apptiles.js"
+			],
+			[
+				"tiles",
+				"css/tiles.css"
+			],
+			[
+				"jquery",
+				"js/libs/jquery-ui.js"
+			],
+			[
+				"apptil",
+				"js/apptiles.js"
+			],
+			[
+				"base.sc",
+				"public/scss/modules/_base.scss"
+			],
+			[
+				"_type.",
+				"public/scss/modules/_type.scss"
+			],
+			[
+				"modules/",
+				"public/scss/modules/_type.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

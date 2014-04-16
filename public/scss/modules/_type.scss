@@ -12,10 +12,12 @@ html {
 }
 
 body {
-	color: #515151;
+	color: #8894a0;
 	text-size-adjust: 100%;
 	overflow-x: hidden;
 }
+
+.masthead-title a {color: #29313c;}
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
@@ -32,7 +34,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Muli', sans-serif; 
   font-weight: 400;
-  color: #313131;
+  color: #29313c;
   letter-spacing: -.025rem;
 }
 
