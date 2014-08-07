@@ -1,4 +1,10 @@
 ---
-title: Notes
-layout: Default
+layout: default
 ---
+
+<div class="post">
+	{% for note in site.notes %}
+		<h2><a href="{{ note.url }}">{{ note.title }}</a></h2>
+	{% endfor %}
+</div>
+	
