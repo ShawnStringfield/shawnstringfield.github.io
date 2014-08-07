@@ -2,12 +2,6 @@
 layout: default
 ---
 
-
-
-{% include foo.html if page.url == '/index.html' %}
-
-{{page.url}}
-
 <div class="post">
 	{% for post in site.posts %}
 		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>

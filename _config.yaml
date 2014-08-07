@@ -4,9 +4,6 @@ highlighter: true
 port: 4000
 permalink: /:categories/:year/:month/:day/:title
 
-gems:
-  - octopress-include-tag
-
 # Collections
 collections:
     notes:
