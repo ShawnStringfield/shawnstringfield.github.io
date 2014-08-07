@@ -1,5 +1,10 @@
 name: Your New Jekyll Site
 markdown: kramdown
-pygments: true
+highlighter: true
 port: 4000
 permalink: /:categories/:year/:month/:day/:title
+
+# Collections
+collections:
+    notes:
+        output: true
