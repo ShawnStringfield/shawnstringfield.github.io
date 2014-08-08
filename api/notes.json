@@ -1,0 +1,14 @@
+---
+---
+[
+	{% for note in site.notes %}
+		{
+			"title": "{{ note.title }}",
+			"url": "{{ note.url }}",
+			"date": "{{ note.date | date: "%Y %B %d" }}",
+			"tags": [{% for tag in note.tags %}"{{ tag }}",{% endfor %} null],
+			"content": "{{ note.content }}"
+		}
+		{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+]
