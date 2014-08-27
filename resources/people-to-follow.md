@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD:resources/people-to-follow.html
 title: People to Follow
+=======
+title: People To Follow
+>>>>>>> ranemed pople to follow:resources/people-to-follow.md
 layout: default
 ---
 
