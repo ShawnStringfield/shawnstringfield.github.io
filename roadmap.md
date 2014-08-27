@@ -13,11 +13,20 @@ layout: default
 - Merge Conflicts
 
 ## Angular
+- Directives
+- Scope
+- UI Router
 
-## Intermediary JS
+## APIs
+- Google Calendar API
+
+## Node.js (For Tooling)
+- Yeoman Generators
 
 ## Learn Build Tools
 - Grunt
 - Gulp (Mostly Gulp Over Grunt)
 
 ## Master Jekyll
+- Jekyll Plugins
+- Study Healthcare.gov
