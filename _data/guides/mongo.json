@@ -8,6 +8,12 @@
 			},{
 				"command": "db.help()",
 				"description": "Show help for database methods."
+			},{
+				"command": "db.collection.help()",
+				"description": "Show help on collection methods. The <strong>collection</strong> can be the name of an existing collection or a non-existing collection."
+			},{
+				"command": "show dbs",
+				"description": "Print a list of all databases on the server."
 			}
 		]
 	]
