@@ -1,0 +1,14 @@
+---
+title: Mongo Shell Quick Reference
+layout: default
+---
+
+{% for item in site.data.guides.mongo.mongocommands %}
+	<h2>{{item.title}}</h2>
+	{% for command in item.commands %}
+		<div style="clear:both; border-bottom: 1px solid #EEE; overflow:hidden; padding-top: 15px;">
+			<p style="float:left;">{{command.command}}</p>
+			<p style="float:right; color: #999;">{{command.description}}</p>
+		</div>
+	{% endfor %}
+{% endfor %}

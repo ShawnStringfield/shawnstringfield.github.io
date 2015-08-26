@@ -1,0 +1,14 @@
+{
+	"mongocommands": [
+		title: "Command Helpers",
+		commands: [
+			{
+				"command": "help",
+				"description": "Show help."
+			},{
+				"command": "db.help()",
+				"description": "Show help for database methods."
+			}
+		]
+	]
+}
