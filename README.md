@@ -1,3 +1,3 @@
-shawnstringfield.github.io
+Shawn Stringfield
 ==========================
-Soon to be personal portfolio of Shawn Stringfield
+@Todo: Add steps to rebuild site locally
