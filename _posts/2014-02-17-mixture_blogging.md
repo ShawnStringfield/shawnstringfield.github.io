@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blogging with Mixture Test
+title: Blogging with Mixture
 ---
 
 Yesterday I began working on my portfolio site and using Mixture for the Front-End work. I'm using collections to store each client's project. It's been a while sense I used collections in a mixture project and was a bit confused about the collection structure and which data points are displayed in which templates so I decided to jot down the proccess I used to get this all working correctly.
