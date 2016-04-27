@@ -1,9 +1,0 @@
-name: Your New Jekyll Site
-markdown: kramdown
-port: 4000
-permalink: /:categories/:year/:month/:day/:title
-
-# Collections
-collections:
-    notes:
-        output: true
